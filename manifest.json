@@ -1,0 +1,9 @@
+﻿{
+  "Name": "StardewFaster",
+  "Author": "EpicDuque",
+  "Version": "1.0.0",
+  "Description": "Adds items to speed up gameplay.",
+  "UniqueID": "EpicDuque.StardewFaster",
+  "EntryDll": "StardewFaster.dll",
+  "MinimumApiVersion": "4.0.0"
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>StardewFaster</AssemblyName>
+    <RootNamespace>StardewFaster</RootNamespace>
+    <EnableModDeploy>true</EnableModDeploy>
+</PropertyGroup>
+<ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+</ItemGroup>
+<ItemGroup>
+  <Folder Include="assets\" />
+</ItemGroup>
+</Project>
