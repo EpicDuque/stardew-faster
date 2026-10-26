@@ -3,6 +3,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>StardewFaster</AssemblyName>
     <RootNamespace>StardewFaster</RootNamespace>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);CS9057</NoWarn>
     <EnableModDeploy>true</EnableModDeploy>
 </PropertyGroup>
 <ItemGroup>
