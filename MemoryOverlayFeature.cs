@@ -6,7 +6,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 
-namespace StardewTweaks.Features
+namespace StardewFaster.Features
 {
     /// <summary>
     /// Shows memory use, garbage-collection activity and frame time on screen, and logs

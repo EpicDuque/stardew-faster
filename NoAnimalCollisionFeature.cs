@@ -4,7 +4,7 @@ using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Characters;
 
-namespace StardewTweaks.Features
+namespace StardewFaster.Features
 {
     /// <summary>Lets the player walk through farm animals and pets.</summary>
     public class NoAnimalCollisionFeature

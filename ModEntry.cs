@@ -1,7 +1,7 @@
 ﻿using StardewModdingAPI;
-using StardewTweaks.Features;
+using StardewFaster.Features;
 
-namespace StardewTweaks
+namespace StardewFaster
 {
     public class ModEntry : Mod
     {
@@ -20,6 +20,9 @@ namespace StardewTweaks
             
             if(config.MemoryOverlay.Enabled)
                 new MemoryOverlayFeature(this, config.MemoryOverlay).Register();
+            
+            if(config.RobinUpgrade.Enabled)
+                new RobinUpgradeFeature(this, config.RobinUpgrade).Register();
         }
     }
 }

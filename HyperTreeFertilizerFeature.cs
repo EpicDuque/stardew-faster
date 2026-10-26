@@ -5,7 +5,7 @@ using StardewValley;
 using StardewValley.GameData.Objects;
 using StardewValley.TerrainFeatures;
 
-namespace StardewTweaks.Features
+namespace StardewFaster.Features
 {
     /// <summary>Adds Hyper Tree Fertilizer: a craftable item that makes wild and fruit trees grow much faster.</summary>
     public class TreeFertilizerFeature

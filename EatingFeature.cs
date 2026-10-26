@@ -4,7 +4,7 @@ using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 
-namespace StardewTweaks.Features
+namespace StardewFaster.Features
 {
     /// <summary>Shortens the eating and drinking animations.</summary>
     public class EatingFeature

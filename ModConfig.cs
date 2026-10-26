@@ -1,6 +1,6 @@
 ﻿using StardewModdingAPI;
 
-namespace StardewTweaks
+namespace StardewFaster
 {
     public class ModConfig
     {
@@ -8,6 +8,8 @@ namespace StardewTweaks
         public EatingConfig Eating { get; set; } = new();
         public NoAnimalCollisionConfig NoAnimalCollision { get; set; } = new();
         public MemoryOverlayConfig MemoryOverlay { get; set; } = new();
+        public RobinUpgradeConfig RobinUpgrade { get; set; } = new();
+        public ResetDayTimeConfig ResetDayTime { get; set; } = new();
     }
 
     public class TreeFertilizerConfig
@@ -58,6 +60,27 @@ namespace StardewTweaks
  
         public float HitchThresholdMs { get; set; } = 100f;
     }
+    
+    public class RobinUpgradeConfig
+    {
+        public bool Enabled { get; set; } = false;
+ 
+        /// <summary>Cost of the upgrade, in gold.</summary>
+        public int Price { get; set; } = 200000;
+ 
+        /// <summary>First in-game year the upgrade is offered.</summary>
+        public int AvailableFromYear { get; set; } = 3;
+ 
+        /// <summary>Building speed bonus in percent (25 = jobs take 1/1.25 of the time).</summary>
+        public int SpeedBonusPercent { get; set; } = 25;
+    }
 
+    public class ResetDayTimeConfig
+    {
+        public bool Enabled { get; set; } = true;
+
+        /// <summary>Key that resets the clock to 6:00 AM.</summary>
+        public SButton ResetKey { get; set; } = SButton.F12;
+    }
 
 }
